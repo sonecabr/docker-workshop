@@ -1,5 +1,7 @@
 __Oque é Docker?__
 
+#[Docker Logo](docker.png)
+
 # Um pouco de historória
   Um sr chamado Solomon Hykes iniciou o projeto na frança para a empresa dotCloud, usando a capacidade de gerar namespaces no Linux (LXC) para criar containers.
   Em 2013 o projeto foi anunciado ao publico na PyCon.
@@ -85,7 +87,7 @@ Limpando a casa:
 ```
 sudo docker container prune
 sudo docker images prune
-
+OU
 sudo docker rm $(sudo docker ps -aq)
 sudo docker rmi $(sudo docker images -f status=exited -q)
 ```
