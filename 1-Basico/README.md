@@ -9,7 +9,7 @@ __Oque é Docker?__
 # Docker x Virtualização
   A comparação mais comun que se faz é entre Docker e Virtualização. Apesar de não terem praticamente nenhuma similaridade, o Docker tem roubado uma parte consideravel da atenção do mercado em detrimento da Virtualização, por resolver na essencia o mesmo tipo de problema (Compartilhamento de recurso).
   O desenho mais comum que se encontra para tal comparação é este:
-  ![Docker x Vm](hypervisor_types.png)
+  ![Docker x Vm](hypervisor-Vmware-vs-Docker-310x205.jpg)
 
 # Como um container nasce
   Toda instancia de container nasce a partir de uma imagem, que por sua vez é criada a partir de um Dockerfile.
