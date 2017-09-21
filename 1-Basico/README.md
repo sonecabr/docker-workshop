@@ -1,6 +1,6 @@
 __Oque é Docker?__
 
-#[Docker Logo](docker.png)
+![Docker Logo](docker.png)
 
 # Um pouco de historória
   Um sr chamado Solomon Hykes iniciou o projeto na frança para a empresa dotCloud, usando a capacidade de gerar namespaces no Linux (LXC) para criar containers.
