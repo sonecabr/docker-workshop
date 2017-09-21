@@ -26,14 +26,15 @@ __Oque é Docker?__
 
 # Como instalar Docker
   É possivel instalar o Docker a partir do repositorio da maioria dos sistemas linux
-   Ubuntu: ``` sudo apt-get install docker```
-   Fedora: ``` sudo yum install docker```
+   * Ubuntu: ``` sudo apt-get install docker```
+   * Fedora: ``` sudo yum install docker```
+  
   Ou baixando os binarios na pagina oficial do docker:
-    https://docker.com/
+    * https://docker.com/
   Existe docker para Windows?
-     Sim, existe mas tem suporte limitado
+     - Sim, existe mas tem suporte limitado
   Existe docker para Mac
-     Sim =D. https://www.docker.com/docker-mac
+     - Sim =D. https://www.docker.com/docker-mac
 
 # Como validar a instalação do Docker
   Basta executar o comando:
