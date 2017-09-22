@@ -239,4 +239,3 @@ tcp6       0      0 :::2377                 :::*                    LISTEN      
 tcp6       0      0 :::3306                 :::*                    LISTEN      27933/docker-proxy
 tcp6       0      0 :::7946                 :::*                    LISTEN      1529/dockerd   
 ```
-O resto é como normalmente se procede, você pode usar um cliente de mysql
