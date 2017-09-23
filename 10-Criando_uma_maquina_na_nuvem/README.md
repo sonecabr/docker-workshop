@@ -69,5 +69,10 @@ Successfully removed workshop-docker-ex
 E no console:
 ![Ec2 shutdown](aws_ec2_down.png)
 
+Como podemos aproveitar melhor esse recurso?
+ - Nas proximas etapas vamos aprender a usar a docker-machine em conjunto com o swarm.
+
+
+
 
 
