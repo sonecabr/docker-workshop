@@ -7,9 +7,9 @@ André Rocha (Soneca)
 
 Não sei a quanto tempo codo, não lembro quando comecei.
 
-Engenheiro de Software na Konker
+Engenheiro de Software na Konker (https://www.konkerlabs.com/)
 
-Arquiteto de Software na ObvioBrasil (ReclameAqui)
+Arquiteto de Software na ObvioBrasil (ReclameAqui) https://www.reclameaqui.com.br
 
 Linkedin: https://www.linkedin.com/in/andr%C3%A9-rocha-24831b15/
 
