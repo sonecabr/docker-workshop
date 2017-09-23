@@ -1,22 +1,5 @@
 # Docker-workshop
 
-__Quem sou eu__
-
-
-![Me](me.jpg)
-
-André Rocha (Soneca)
-
-Não sei a quanto tempo codo, não lembro quando comecei.
-
-Engenheiro de Software na Konker
-
-Arquiteto de Software na ObvioBrasil (ReclameAqui)
-
-Linkedin: https://www.linkedin.com/in/andr%C3%A9-rocha-24831b15/
-
-Github: https://github.com/sonecabr/
-
 __Sobre o workshop__
 
 São 5 etapas, e o meu proposito é que cada etapa dure 2 horas.
