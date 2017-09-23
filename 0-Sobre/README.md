@@ -1,5 +1,8 @@
 __Quem sou eu__
 
+
+![Me](me.jpg)
+
 André Rocha (Soneca)
 
 Não sei a quanto tempo codo, não lembro quando comecei.
