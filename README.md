@@ -1,4 +1,4 @@
-# Docker-workshop
+# Docker Workshop
 
 __Sobre o workshop__
 
