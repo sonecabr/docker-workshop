@@ -70,5 +70,80 @@ Vamos fazer então?
 Vá em outro nó e cole o comando que apareceu no seu retorno.
 O retorno esperado deve ser algo parecido com:
 ```
+This node joined a swarm as a worker
+```
+Vamos validar? Digite no primeiro nó (manager):
+```
+sudo docker node ls
+```
+O retorno esperado deve ser parecido com:
+```
+ID                            HOSTNAME               STATUS              AVAILABILITY        MANAGER STATUS
+9ps65av20yorbax4n6dewbpvb *   andre-Inspiron-5458    Ready               Active              Leader
+oqiuhp20jf84ywkmpys3xixo7     andre-Vostro-14-5480   Ready               Active              
 
 ```
+Como sei se um nó é manager ou worker?
+ - Basta observar o `MANAGET STATUS`, se ele estiver como Leader ou Reachable ele é um Manager, caso contrário é um Worker
+
+Nós de Manager podem ter containers sendo executados?
+ - Podem
+
+Como eu troco o tipo do nó entre Manager e worker?
+ - Vá no nó de worker e digite:
+   ```
+   sudo docker swarm leave
+   ```
+   O retorno esperado deve ser parecido com:
+   ```
+   Node left the swarm.
+   ```
+   Agora vamos pedir o token do tipo manager. Vá até o primeiro nó (manager atual) e digite:
+   ```
+   sudo docker swarm join-token manager
+   ```
+   O retorno esperado deve ser parecido com:
+   ```
+   To add a manager to this swarm, run the following command:
+
+    docker swarm join --token SWMTKN-1-3ebgsyihv5ohiatik505v12267l9465gnpywllwpo61qebs5in-8q6fdkokno1vx9ehi0jimxu5m 192.168.0.75:2377
+
+   ```
+   Vamos então executar o comando no nó que desejamos adicionar, e o retorno esperado deve ser parecido com:
+   ```
+   This node joined a swarm as a manager.
+   ```
+
+   Vamos agora validar. Digite em qualquer um dos nós:
+   ```
+   sudo docker node ls
+   ```
+   
+   O retorno esperado deve ser algoo parecido com:
+   
+   ```
+   9ps65av20yorbax4n6dewbpvb    andre-Inspiron-5458   Ready   Active        Leader 
+   oqiuhp20jf84ywkmpys3xixo7    andre-Vostro-14-5480  Down    Active        
+   v79hc36abtt6ov69ewwfq5o91 *  andre-Vostro-14-5480  Ready   Active        Reachable
+   ```
+
+   Como é possivel ver acima, o nó `andre-Vostro-14-5480` está presente em duas linhas, em uma ele é mostrado como `Down` e outra como `Ready`. Isso acontece por que tivemos uma falha de comunicação na remoção do worker.
+   E como eu limpo isso?
+   ```
+    sudo docker node rm oqiuhp20jf84ywkmpys3xixo7
+   ```
+   E executando validando novamente:
+   ```
+   sudo docker node ls
+   ```
+   Devemos ver:
+   ```
+   ID                           HOSTNAME              STATUS  AVAILABILITY  MANAGER STATUS
+   9ps65av20yorbax4n6dewbpvb    andre-Inspiron-5458   Ready   Active        Leader
+   v79hc36abtt6ov69ewwfq5o91 *  andre-Vostro-14-5480  Ready   Active        Reachable
+
+   ```
+
+Ok mas como eu uso isso para fazer deploy de instancias docker?
+ - Vamos aprender isso no pŕoximo passo =D.
+
