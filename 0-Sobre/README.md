@@ -23,7 +23,7 @@ __Primeira Etapa__
 
 2 - Executando o primeiro container
 
-3 - Explorando o DcokerHub
+3 - Explorando o DockerHub
 
 4 - Criando o primeiro container
 
@@ -44,8 +44,8 @@ __Segunda Etapa__
 __Terceira Etapa__
 
 11 - Docker Swarm
-12 - Crian um cluster Swarm
-13 - Comando uteis para gestá do cluster
+12 - Criando um cluster Swarm
+13 - Comandos úteis para gestão do cluster
 14 - Criando um cluster via Docker Stack
 15 - Conceitos adicionais para uma aplicação estável e tolerante a falhas
 
@@ -57,4 +57,4 @@ WIP
 
 Quer me ajudar a definir as etapas finais? Gostaria de adicionar alguma informação? 
 Gostaria de sugerir mudanças ou Etapas adicionais? 
-Vou ficar muito feliz em receber Issues neste repositório com estas sugestões e critias =D.
+Vou ficar muito feliz em receber Issues neste repositório com estas sugestões e críticas =D.
