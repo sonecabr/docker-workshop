@@ -13,6 +13,19 @@ Linkedin: https://www.linkedin.com/in/andr%C3%A9-rocha-24831b15/
 
 Github: https://github.com/sonecabr/
 
+__Sobre quem colaborou__
+
+Wellington Mariusso ( Well )
+
+Coda desde de sempre, atua com sistemas criticos e de alta disponibilidade a mais de 15 anos.
+
+CTO na Konker (https://www.konkerlabs.com)
+
+Linkedin: https://www.linkedin.com/in/wmariusso/
+
+Github: https://github.com/wmariusso/
+
+
 __Sobre o workshop__
 
 São 5 etapas, e o meu proposito é que cada etapa dure entre 1 a 2 horas.
