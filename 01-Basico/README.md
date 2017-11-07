@@ -1,9 +1,9 @@
-__Oque é Docker?__
+__O que é Docker?__
 
 ![Docker Logo](docker.png)
 
-# Um pouco de historória
-  Um sr chamado Solomon Hykes iniciou o projeto na frança para a empresa dotCloud, usando a capacidade de gerar namespaces no Linux (LXC) para criar containers.
+# Um pouco de história
+  Um sr chamado Solomon Hykes iniciou o projeto na França para a empresa dotCloud, usando a capacidade de gerar namespaces no Linux (LXC) para criar containers.
   Em 2013 o projeto foi anunciado ao publico na PyCon.
   Em março de 2013 o projeto foi doado a comunidade
   Até 2017 o Docker ja possuia mais de 13 bilhoes de downloads na pagina oficial.
