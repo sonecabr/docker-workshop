@@ -16,6 +16,7 @@ Github: https://github.com/sonecabr/
 __Sobre quem colaborou__
 
 ![Well](well.jpg)
+
 Wellington Mariusso ( Well )
 
 Coda desde de sempre, atua com sistemas criticos e de alta disponibilidade a mais de 15 anos.
