@@ -37,6 +37,11 @@ __O que é Docker?__
      - Sim, existe mas tem suporte limitado
   Existe docker para Mac
      - Sim =D. https://www.docker.com/docker-mac
+     
+### iniciando o serviço (linux) ####
+```
+sudo service docker start
+```
 
 # Como validar a instalação do Docker
   Basta executar o comando:
