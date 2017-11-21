@@ -142,9 +142,9 @@ Vamos parar o container novamente:
 ```
 sudo docker stop lavai-o-docker
 ```
-E executar agora adicionando o -d
+E executar agora trocando o -rm por -d
 ```
-sudo docker run --rm --name lavai-o-mysql -e MYSQL_ROOT_PASSWORD=123mudar -d mysql
+sudo docker run -d --name lavai-o-mysql -e MYSQL_ROOT_PASSWORD=123mudar mysql
 ``` 
 Diferente da execução anterior você deve ver na saida do console apenas um hash:
 ```
