@@ -1,0 +1,36 @@
+version: "3.3"
+
+services:
+  wordpress:
+    image: wordpress
+    links:
+     - mariadb:mysql
+    environment:
+     - WORDPRESS_DB_PASSWORD=123mudar
+    ports:
+     - "127.0.0.1:80:80"
+    volumes:
+     - code:/code
+     - html:/var/www/html
+    deploy:    
+      mode: replicated
+      replicas: 2
+      endpoint_mode: vip
+  mariadb:
+    image: mariadb
+    environment:
+     - MYSQL_ROOT_PASSWORD=123mudar
+     - MYSQL_DATABASE=wordpress
+    volumes:
+     - db-data:/var/lib/mysql
+    deploy:    
+      mode: replicated
+      replicas: 1
+      endpoint_mode: dnsrr
+
+volumes:
+ db-data:
+ code:
+ html:
+networks:
+  overlay:
