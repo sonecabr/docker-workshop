@@ -58,4 +58,7 @@ spec:
  Onde:
  ___kind: Deployment___ é para definir o tipo Deployment
  ___replicas:1___ define a quantidade de instancias que iremos lançar ( para o POD não para o container ), neste caso 1 instancia
+
+ É possivel listar os PODS implantados com o comando:
+ `kubectl get pods --all-namespaces`
  
